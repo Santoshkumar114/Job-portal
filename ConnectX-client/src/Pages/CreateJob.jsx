@@ -16,7 +16,7 @@ const CreateJob = () => {
   const onSubmit = (data) => {
     data.skills = selectedOption;
     // console.log(data);
-    fetch("https://backend-gs1h.onrender.com/post-job", {
+    fetch("https://backend-61ny.onrender.com/post-job", {
       method: "POST",
       headers: {'content-type': 'application/json'},
       body: JSON.stringify(data)
