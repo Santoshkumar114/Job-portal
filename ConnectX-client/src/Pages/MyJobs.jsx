@@ -16,7 +16,7 @@ const MyJobs = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch(`https://backend-gs1h.onrender.com/myJobs/${user?.email}`)
+    fetch(`https://backend-61ny.onrender.com/myJobs/${user?.email}`)
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);
@@ -58,7 +58,7 @@ const MyJobs = () => {
 
   const handleDelete = (id) => {
    // console.log(id)
-    fetch(`https://backend-gs1h.onrender.com/job/${id}`, {
+    fetch(`https://backend-61ny.onrender.com/job/${id}`, {
         method: "DELETE"
     })
     .then((res) => res.json)
