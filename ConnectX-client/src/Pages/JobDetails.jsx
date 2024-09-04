@@ -9,7 +9,7 @@ const JobDetails = () => {
     const {id} = useParams();
     const [job, setJob] = useState([])
     useEffect(() => {
-        fetch(`https://backend-gs1h.onrender.com/all-jobs/${id}`).then((res) => res.json()).then((data) => setJob(data))
+        fetch(`https://backend-61ny.onrender.com/all-jobs/${id}`).then((res) => res.json()).then((data) => setJob(data))
     }, [])
 
     const handleJobApply = async () => {
