@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://backend-gs1h.onrender.com/all-jobs")
+    fetch("https://backend-61ny.onrender.com/all-jobs")
       .then((res) => res.json())
       .then((data) => {
         //console.log(data)
