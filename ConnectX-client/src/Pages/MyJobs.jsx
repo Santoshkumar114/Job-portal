@@ -73,7 +73,7 @@ const MyJobs = () => {
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4">
       <div className="my-jobs-container">
-        <h1 className="text-center p-4">All My Job Connects</h1>
+        <h1 className="text-center p-4"> My Job Connects</h1>
         <div className="search-box p-2 text-center mb-2">
           <input
             onChange={(e) => setSearchText(e.target.value)}
@@ -106,7 +106,7 @@ const MyJobs = () => {
                       to="/post-job"
                       className="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     >
-                      Post A New Job Connect
+                      Post A Job 
                     </Link>
                 </div>
               </div>
